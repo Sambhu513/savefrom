@@ -1,0 +1,470 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar
+{
+ text-align: center;
+
+}
+.nav-item
+{
+    padding-left: 10px;
+    font-size: 17px;
+    color: black;
+}
+.nav-item:hover
+
+{
+text-decoration: underline;
+text-decoration-color:blue;
+text-decoration-thickness: 1.5px;
+}
+.items
+{
+    color: black;
+}
+.head 
+{
+    display: flex;
+    justify-content: center;
+}
+.savemea
+{
+    margin-right: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.navbar-nav
+{
+    margin-left: 130px;
+}
+@media (max-width: 980px)
+{
+.navbar-nav
+{
+    margin-left:0px ;
+}
+    
+}
+
+.navbar-brand
+{
+ margin-right: 100px;   
+}
+.collapse
+{
+   text-align: right;
+}
+.navbar-nav
+{
+    text-align: right;
+}
+#navbarTogglerDemo03
+{
+    text-align: right;
+    justify-content: end;
+}
+.downloader
+{
+    font-weight: 600;
+}
+#sf_url
+{
+    height: 42px;
+}
+/*.text
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+#sf_url
+{
+    padding-left: 180px;
+    padding-right: 180px;
+    border: 7px solid green;
+}*/
+
+.r-box
+{
+    display: inline-block;
+}
+.contain
+{
+    display: flex;
+    width: 100%;
+}
+.bar
+{
+  
+}
+.search
+{
+    width: 600px;
+    float: right;
+text-align: end;
+
+
+}
+.submit
+{border: solid 1px #7ed214;
+    outline: solid 2px #7ed214;
+    background-color: #7ed214;
+    color: aliceblue;
+    font-weight: 600;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 10px;
+}
+boxhight
+{
+height: 50px;
+}
+.breaker
+{
+
+}
+.textfield
+{
+    padding-bottom: 11px;
+    border: solid 5px #7ed214;
+    outline: solid 1px #7ed214;
+}
+.navbar
+{
+    border-bottom:  solid rgba(51, 51, 51, 0.215);
+border-bottom-width: .8px;
+}
+@media (max-width: 600px)
+{
+.submit
+{
+margin-left: 0px;
+}
+}
+.down
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+.bulb
+{display: inline-block;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+@media (max-width: 400px)
+{
+.bulb
+{
+
+    margin-top: 30px;
+    width: 30px;
+    height: 30px;
+}
+}
+.textwrapper
+
+{
+text-align: center;
+}
+.card
+{
+    padding-top: 5px;
+text-align: center;
+
+}
+.cards0
+{
+    background-image: url("/images/facebook.svg");
+ background-repeat: no-repeat;
+ 
+}
+.cards1
+{
+    background-image: url("/images/instagram.svg");
+ background-repeat: no-repeat;
+ 
+}
+.cards3
+{
+    background-image: url("/images/twitter.svg");
+ background-repeat: no-repeat;
+ 
+}
+.cards2
+{
+    background-image: url("/images/youtube.svg");
+ background-repeat: no-repeat;
+ 
+}
+@media (max-width: 980px)
+{
+    .pad
+    {
+        padding-top: 30px;
+    }
+}
+/*.wrapper
+{
+    overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar
+{
+    width: 0;
+}*/
+.itemz
+{
+
+}
+
+.notvisble
+{
+    display: none;
+}
+
+@media (max-width: 700px)
+{
+ .visble
+ {
+     display: none;
+ }
+    .notvisble
+    {
+        display: block;
+    }
+    .itemz{
+        width: 200px;
+        height: 135px;
+    }
+    .wrapper
+    {
+        overflow-x: auto;
+
+    }
+    
+}
+.wrapper::-webkit-scrollbar
+    {
+        width: 0;
+    }
+.itemz ul li{
+    list-style: none;
+}
+.first ul li
+{
+   
+    
+    padding-left: 28px;
+    padding-bottom: 4px;
+}
+.second ul li
+{
+   
+    
+    padding-left: 28px;
+    padding-bottom: 4px;
+}
+.third ul li
+{
+   
+    
+    padding-left: 28px;
+    padding-bottom: 4px;
+}
+.forth ul li
+{
+   
+    
+    padding-left: 28px;
+    padding-bottom: 4px;
+}
+.globe
+{
+    background-image: url(/images/web.svg);
+    background-repeat: no-repeat;
+}
+
+.first ul li:nth-child(2)
+{
+    background-image: url(/images/soundcloud.svg);
+    background-repeat: no-repeat;
+}
+.second ul li:nth-child(1)
+{
+    background-image: url(/images/vimeo.svg);
+    background-repeat: no-repeat;
+}
+.second ul li:nth-child(3)
+{
+    background-image: url(/images/tiktok.svg);
+    background-repeat: no-repeat;
+}
+.third ul li:nth-child(1)
+{
+    background-image: url(/images/vk.svg);
+    background-repeat: no-repeat;
+}
+.forth ul li:nth-child(1)
+{
+    background-image: url(/images/ok.svg);
+    background-repeat: no-repeat;
+}
+.textho
+{
+    width: 80%;
+font-family: Roboto,sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 36px;
+}
+.bigbox
+{
+    width: 820px;
+}
+.how-to-use-middle-arrow{
+    padding-top: 233px;
+    width: 30px;
+    transform: rotate(-15%);
+}
+
+.text-wrap{
+    text-justify: newspaper;
+    float: right;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    width: 300px;
+    height: 300px;
+}
+.floating div
+{
+    float:right;
+}
+.boxcontain
+{
+    float: right;
+}
+.textdoc
+{
+    margin-right: 3;
+}
+.textsize
+{
+margin-right: 300px;
+
+}
+.youtube
+{
+    color: #7ed214;
+}
+.install-helper-button
+{
+    background-color: #7ed214;
+    width: 100%;
+background: linear-gradient(83.64deg,#3dd84d 55.01%,#00b75a 106.83%);
+border-radius: 10px;
+color: #fff;
+font-family: Roboto,sans-serif;
+font-style: normal;
+font-weight:700 ;
+
+}
+.minimega
+{
+    display: none;
+}
+@media (max-width:992px) {
+    .megabox
+    {
+        display: none;
+
+    }
+    .minimega
+    {
+        display: block;
+    }
+  
+}
+@media (min-width:992px) {
+
+    .justfybox
+    {
+        justify-content:  end;
+    }
+}
+
+.downloadapp
+{
+padding-left: 120px;
+padding-right: 120px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.hdyt
+{
+    padding-top: 13px;
+    
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-color: rgb(158, 227, 176);
+    background-origin: content-box;
+}
+.ytdw
+{
+    background-image: url(/images/televzr.png);
+}
+.pdf
+{
+    background-image: url(/images/pdfedit.png);
+}
+.ovd
+
+{
+    background-image: url(/images/instasupersave.png);
+}
+.tiktok
+{
+background-image: url(/images/tiktok.png);
+
+}
+.mp3
+{
+    background-image: url(/images/ovc.png);
+}
+.lastbox
+{
+    width: 270px;
+     height: 70px ;
+}
+@media (max-width:564px) {
+   
+   .lastbox
+   {
+      
+   }
+}
+.lastlist ul li 
+{
+list-style: none;
+text-align: left;
+}
+.submit:hover
+{
+    border: solid 1px #7dd214c6;
+    outline: solid 2px #7dd214b3;
+    background-color: #7dd214ad;
+}
+@media (max-width:390px) 
+{
+    .downloadapp
+    {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
